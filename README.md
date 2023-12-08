@@ -19,7 +19,7 @@ and developing and testing locally with `serverless-offline`.
 Installing using npm:
 
 ```
-npm i serverless-offline-local-authorizers-plugin --save-dev
+npm i @ivinco/serverless-offline-local-authorizers-plugin --save-dev
 ```
 
 ## Usage
