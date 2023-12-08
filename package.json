@@ -31,10 +31,6 @@
   "author": "Pavel Pykov <pavel@ivinco.com>",
   "homepage": "https://github.com/Ivinco/serverless-offline-local-authorizers-plugin#readme",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "20.10.4",
-    "typescript": "^5.3.3"
-  },
   "types": "./dist/index.d.ts",
   "description": "[Serverless](http://www.serverless.com) plugin for adding authorizers when developing and testing functions locally with [serverless-offline](https://github.com/dherault/serverless-offline).",
   "bugs": {
@@ -44,6 +40,8 @@
     "example": "examples"
   },
   "dependencies": {
-    "undici-types": "^5.26.5"
+    "undici-types": "^5.26.5",
+    "@types/node": "20.10.4",
+    "typescript": "^5.3.3"
   }
 }
